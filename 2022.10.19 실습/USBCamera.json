@@ -1,0 +1,42 @@
+[
+    {
+        "id": "a8c878132115eaa4",
+        "type": "ui_template",
+        "z": "5b219867a9176687",
+        "group": "cf4452baae40f753",
+        "name": "",
+        "order": 2,
+        "width": "6",
+        "height": "6",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 780,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf4452baae40f753",
+        "type": "ui_group",
+        "name": "camera",
+        "tab": "1d80c7d93e276070",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1d80c7d93e276070",
+        "type": "ui_tab",
+        "name": "camera",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
